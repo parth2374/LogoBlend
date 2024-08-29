@@ -11,7 +11,7 @@ export default defineConfig({
   },
 
   server: {
-    port: 'https://logoblend.vercel.app',
+    port: 'logoblend.vercel.app',
     strictPort: true,
     proxy: {
       '/png': 'https://logoexpress.tubeguruji.com'
