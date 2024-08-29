@@ -62,7 +62,7 @@ function LogoPreview({ downloadIcon }) {
                 >
                     { storageValue?.icon?.includes('.png') ?
                         <img
-                            src={BASE_URL + '/png/' + storageValue?.icon}
+                            src={'/png/' + storageValue?.icon}
                             style={{
                                 height: storageValue?.iconSize,
                                 width: storageValue?.iconSize,
